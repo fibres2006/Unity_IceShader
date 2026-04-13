@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Ice
+  m_Shader: {fileID: 4800000, guid: ec8da0fbabc976e4fbbeaa62746fa3dc, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CrackTex:
+        m_Texture: {fileID: 2800000, guid: 48e7a23e832edcc41bf615ab174e26ee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 36d2b17d6e5c8e9419fc71d6ac715e89, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _Maintex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: ee13e8680156bc4459eaed8f6f191fe7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 0c77373e152e57c4e997b45cce471973, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ThicknessTex:
+        m_Texture: {fileID: 2800000, guid: f0b658bd6a209854ab91c49cfbdbc2e5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Absorption: 1
+    - _AmbientOcclusion: 0.2
+    - _BumpScale: 1.14
+    - _CausticsScale: 2
+    - _CausticsSpeed: 0.3
+    - _CausticsStrength: 0.6
+    - _CrackStrength: 1.18
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _Float: 0
+    - _FogFalloff: 2.19
+    - _FogRadius: 2.42
+    - _FogShape: 1
+    - _FresnelIntensity: 1.08
+    - _FresnelPower: 2.25
+    - _Gloss: 0
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _IOR: 1.31
+    - _InternalWhiteContrast: 0.5
+    - _InternalWhiteDensity: 1.24
+    - _InternalWhiteDepth: 3.27
+    - _InternalWhiteIntensity: 2
+    - _InternalWhiteScale: 2.5
+    - _InternalWhiteSpeed: 1.98
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseStrength: 0.321
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _Radius: 0.2
+    - _Range: 0
+    - _ReflectionStrength: 0.4
+    - _Refraction: 0.02
+    - _RefractionStrength: 0.2
+    - _RimIntensity: 0.25
+    - _RimPower: 4.75
+    - _Roughness: 0.3
+    - _Smooth: 0.02
+    - _Smoothness: 0.351
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _SubsurfaceDistortion: 0.5
+    - _SubsurfaceStrength: 0.8
+    - _Transparency: 1
+    - _UVSec: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _AbsorbColor: {r: 0.5260867, g: 0.8126787, b: 0.9559748, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _FogCenter: {r: 0, g: 0, b: 0, a: 0}
+    - _FogSize: {r: 0.8, g: 0.8, b: 0.8, a: 0.8}
+    - _IceColor: {r: 0.9308176, g: 0.6585973, b: 0.6585973, a: 0.3764706}
+    - _InternalWhiteColor: {r: 1, g: 1, b: 1, a: 1}
+    - _RimColor: {r: 0.49685526, g: 0.49685526, b: 0.49685526, a: 1}
+    - _SpecColor: {r: 0.082594715, g: 0.0366876, b: 0.22012573, a: 0.7490196}
+    - _SubsurfaceColor: {r: 0.7, g: 0.9, b: 1, a: 1}
+    - _Vector: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
